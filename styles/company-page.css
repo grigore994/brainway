@@ -1,0 +1,64 @@
+/* zeroing */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html, body {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    /*line-height: 1.5;*/
+    -webkit-font-smoothing: antialiased;
+}
+
+/*6. Improve media defaults */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 7. Remove built-in form typography styles */
+/* Inherit fonts for form controls */
+input, button, textarea, select {
+    font: inherit;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* zeroing end */
+
+/* Containers */
+.base-container {
+    max-width: 1170px;
+    margin: 0 auto; /* will center this container */
+    /*padding: 0 15px;*/
+}
+
+/* Containers End */
