@@ -2,15 +2,17 @@
 .header {
     width: 100%;
     display: flex;
-    /*flex: 0 1 auto;*/
     justify-content: space-between;
     align-items: center;
+    margin: 21px 0 0 0;
 }
 
 .header-logo {
 }
 
 .logo-image {
+    /*width: 217px;*/
+    /*height: 62px;*/
 }
 
 .header-content {
@@ -50,7 +52,7 @@
     font-weight: 700; /* bold */
 }
 
-.menu-link-active{
+.menu-link-active {
     padding-bottom: 3px;
     background-image: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
     border-radius: 5px;
@@ -102,6 +104,121 @@
 }
 
 .lang-selector option {
+}
+
+/* make our navbar responsive */
+@media (min-width: 970px ) {
+    .topnav {
+        overflow: hidden;
+    }
+
+    .topnav .icon {
+        display: none;
+    }
+}
+
+@media (max-width: 970px) {
+    .header-logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-image{
+        width: 171px;
+        height: 50px;
+    }
+
+    .topnav {
+        position: relative;
+    }
+
+    .topnav a.icon {
+        color: black;
+        position: absolute;
+        right: 25px;
+        font-size: 30px;
+    }
+
+    #open-hamburger-menu-icon{
+
+    }
+
+    #close-hamburger-menu-icon{
+        display: none;
+    }
+
+    /* When the screen is less than 970 pixels wide, hide all navbar items */
+    .topnav .menu-list {
+        display: none;
+    }
+
+    .topnav .header-contactUs-button {
+        display: none;
+    }
+
+    .topnav .language {
+        display: none;
+    }
+
+    /*
+    The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
+    This class makes the topnav look good on small screens (display the links vertically instead of horizontally)
+    */
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive {
+        float: none;
+        display: block;
+    }
+
+    .responsive .header-logo {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .responsive .header-logo a {
+    }
+
+    .responsive .header-content{
+        padding-top: 50px;
+    }
+
+    .responsive .header-content .header-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .responsive .header-content .header-menu .menu-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .responsive .header-content .header-menu .menu-list .menu-item {
+        margin: 30px 0 0 0;
+        padding: 0 0;
+    }
+
+    .responsive .header-content .header-menu .menu-list .menu-item .menu-link{
+        font-size: 20px;
+        line-height: 120%;
+    }
+
+    .responsive .header-content .header-menu .header-contactUs-button {
+        display: inherit;
+        margin-top: 30px;
+    }
+
+    .responsive .header-content .header-menu .language {
+        display: inherit;
+        margin-top: 30px;
+    }
 }
 
 

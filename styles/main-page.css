@@ -58,7 +58,7 @@ input, button, textarea, select {
 .base-container {
     max-width: 1170px;
     margin: 0 auto; /* will center this container */
-    /*padding: 0 15px;*/
+    padding: 0 15px; /* To secure layout/container for small screen size */
 }
 
 /* Containers End */

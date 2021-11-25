@@ -3,9 +3,14 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Load Google Fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&family=Rubik:wght@400;500;700;900&family=Spartan:wght@500;600;700;800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&family=Rubik:wght@400;500;700;900&family=Spartan:wght@500;600;700;800&display=swap"
+            rel="stylesheet">
+      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+            integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
       <link rel="stylesheet" href="../styles/header.css">
       <link rel="stylesheet" href="../styles/footer.css">
       <link rel="stylesheet" href="../styles/main-page.css">
@@ -14,47 +19,58 @@
    </head>
    <body>
       <div class="wrapper">
-         <header class="base-container header">
-            <div class="header-logo">
-               <img class="logo-image" src="../images/header-section/LOGO.svg" alt="Logo Image on Header" />
-            </div>
+         <header>
+            <div class="header-container base-container">
+               <div class="header topnav" id="myTopnav">
+                  <div class="header-logo">
+                     <img class="logo-image" src="../images/header-section/LOGO.svg" alt="Logo Image on Header"/>
 
-            <div class="header-content">
-               <nav class="header-menu menu ">
-                  <ul class="menu-list ">
-                     <li class="menu-item">
-                           <a class="menu-link " aria-current="page" href="main-page.html">Home</a>
-                        <div class="menu-link-active"></div>
-                     </li>
-
-                     <li class="menu-item">
-                        <a href="process-page.html" class="menu-link">Process</a>
-                     </li>
-
-                     <li class="menu-item">
-                        <a href="company-page.html" class="menu-link">Company</a>
-                     </li>
-
-                     <li class="menu-item">
-                        <a href="why-us-page.html" class="menu-link">Why us</a>
-                     </li>
-                  </ul>
-
-                  <button class="header-contactUs-button">Contact us</button>
-
-                  <div class="language">
-                     <div class="lang-icon">
-                        <img src="../images/header-section/language-icon.svg" alt="language-icon"/>
-                     </div>
-                     <div class="lang-selector">
-                        <select name="language-selector" id="select-language">
-                           <option value="en">en</option>
-                           <option value="ro">ro</option>
-                           <option value="rus">ru</option>
-                        </select>
-                     </div>
+                     <a href="javascript:void(0);" class="icon" onclick="handleBurgerMenuFn()">
+                        <i id="open-hamburger-menu-icon" class="fa fa-bars"></i>
+                        <i id="close-hamburger-menu-icon" class="fas fa-times"></i>
+                     </a>
                   </div>
-               </nav>
+
+                  <div class="header-content">
+                     <nav>
+                        <div class="header-menu menu">
+                           <ul class="menu-list">
+                              <li class="menu-item">
+                                 <a class="menu-link " aria-current="page" href="main-page.html">Home</a>
+                                 <div class="menu-link-active"></div>
+                              </li>
+
+                              <li class="menu-item">
+                                 <a href="process-page.html" class="menu-link">Process</a>
+                              </li>
+
+                              <li class="menu-item">
+                                 <a href="company-page.html" class="menu-link">Company</a>
+                              </li>
+
+                              <li class="menu-item">
+                                 <a href="why-us-page.html" class="menu-link">Why us</a>
+                              </li>
+                           </ul>
+
+                           <button class="header-contactUs-button">Contact us</button>
+
+                           <div class="language">
+                              <div class="lang-icon">
+                                 <img src="../images/header-section/language-icon.svg" alt="language-icon"/>
+                              </div>
+                              <div class="lang-selector">
+                                 <select name="language-selector" id="select-language">
+                                    <option value="en">en</option>
+                                    <option value="ro">ro</option>
+                                    <option value="rus">ru</option>
+                                 </select>
+                              </div>
+                           </div>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
             </div>
          </header>
       </div>
