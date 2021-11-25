@@ -62,3 +62,128 @@ input, button, textarea, select {
 }
 
 /* Containers End */
+
+/* Presentation Section */
+.section-presentation {
+    margin-top: 27px;
+    margin-bottom: 96px;
+}
+
+.presentation-container {
+
+}
+
+.presentation-body {
+    display: flex;
+    /*position: relative;*/
+}
+
+.presentation-content {
+    /*flex: 1 1;*/
+}
+
+.presentation-title {
+    font-family: Rubik, serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0;
+
+    margin-top: 91px;
+    text-align: left;
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(#6A11CB, #2575FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.presentation-subtitle {
+    font-family: Rubik, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+    margin: 30px 0 61px 0;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.are-you-ready-container {
+}
+
+.are-you-ready-title {
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    color: #000000;
+
+}
+
+.are-you-ready-img {
+    width: 25px;
+    height: 25px;
+    margin: 10px 0;
+    /*transform: rotate(-180deg);*/
+}
+
+
+.presentation-image-container {
+    max-width: 765px;
+    max-height: 594px;
+    margin-right: -515px;
+
+}
+
+.presentation-img {
+}
+
+@media (max-width: 970px) {
+    .base-container{
+        padding: 0 50px 0 50px;
+    }
+    .presentation-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentation-title{
+        margin-top: 40px;
+    }
+
+    .presentation-subtitle{
+        margin: 20px 0 30px 0;
+    }
+
+    .presentation-image-container{
+        margin: 0 0;
+    }
+
+}
+
+@media (max-width: 600px){
+    .base-container{
+        padding: 0 20px;
+    }
+    .presentation-title{
+        font-size: 35px;
+        line-height: 120%;
+    }
+
+    .presentation-subtitle{
+        margin: 15px 0 20px 0;
+    }
+}
+
+/* Presentation Section End */
