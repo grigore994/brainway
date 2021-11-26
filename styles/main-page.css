@@ -277,6 +277,143 @@ input, button, textarea, select {
 
 /*Video Presentation Section End */
 
+/* Solutions Section */
+.solutions-section {
+}
+
+.solutions-container {
+}
+
+.frame-group-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.frame1 {
+    margin-top: -95px;
+    margin-left: 40px;
+}
+
+.frame2 {
+    margin-top: -43px;
+    margin-right: -100px;
+}
+
+.solutions-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.solutions-header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 47px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.solutions-header-title {
+    margin-bottom: 30px;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.solutions-header-subtitle {
+    max-width: 630px;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 160%;
+    /* or 32px */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+
+}
+
+.frame-group-2 {
+    position: relative;
+}
+
+.frame-group-2 img {
+    display: inline-block;
+}
+
+.frame3 {
+    position: absolute;
+    top: -250px;
+    left: -86px;
+    z-index: 50;
+}
+
+.frame4 {
+    position: absolute;
+    top: -184px;
+    right: -46px;
+}
+
+.frame5 {
+    position: absolute;
+    top: -165px;
+    right: -181px;
+}
+
+.solutions-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 195px;
+}
+
+.solutions-item-image {
+    flex: 0 1 50%;
+}
+
+.solutions-item-content {
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.solutions-item-title {
+    padding: 15px 38px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.solutions-item-description {
+    margin-left: 33px;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+/* Solutions Section End */
+
 
 
 
