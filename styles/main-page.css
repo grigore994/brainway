@@ -149,7 +149,7 @@ input, button, textarea, select {
 }
 
 @media (max-width: 970px) {
-    .section-presentation{
+    .section-presentation {
         margin-bottom: 40px;
     }
 
@@ -239,12 +239,12 @@ input, button, textarea, select {
     }
 }
 
-@media (max-width:970px) {
-    .video-presentation-title{
+@media (max-width: 970px) {
+    .video-presentation-title {
         margin: 35px 0 40px 0;
     }
 
-    .video-presentation-player{
+    .video-presentation-player {
         margin-bottom: 45px;
 
     }
@@ -256,7 +256,7 @@ input, button, textarea, select {
 }
 
 @media (max-width: 600px) {
-    .video-presentation-title{
+    .video-presentation-title {
         max-width: 270px;
         font-size: 20px;
         line-height: 140%;
