@@ -149,41 +149,160 @@ input, button, textarea, select {
 }
 
 @media (max-width: 970px) {
-    .base-container{
+    .section-presentation{
+        margin-bottom: 40px;
+    }
+
+    .base-container {
         padding: 0 50px 0 50px;
     }
+
     .presentation-body {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .presentation-title{
+    .presentation-title {
         margin-top: 40px;
     }
 
-    .presentation-subtitle{
+    .presentation-subtitle {
         margin: 20px 0 30px 0;
     }
 
-    .presentation-image-container{
+    .presentation-image-container {
         margin: 0 0;
     }
 
 }
 
-@media (max-width: 600px){
-    .base-container{
+@media (max-width: 600px) {
+    .base-container {
         padding: 0 20px;
     }
-    .presentation-title{
+
+    .presentation-title {
         font-size: 35px;
         line-height: 120%;
     }
 
-    .presentation-subtitle{
+    .presentation-subtitle {
         margin: 15px 0 20px 0;
     }
 }
 
 /* Presentation Section End */
+
+/*Video Presentation Section */
+.section-video-presentation {
+    background-color: #F8F8F8;
+}
+
+.video-presentation-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-presentation-title {
+    max-width: 615px;
+    margin: 60px 0 50px 0;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.video-presentation-title span {
+    font-weight: bold;
+}
+
+.video-presentation-player {
+    margin-bottom: 85px;
+}
+
+.video-presentation-player iframe {
+    width: 970px;
+    height: 546px;
+    border-radius: 20px;
+}
+
+@media (max-width: 1100px) {
+    .video-presentation-player iframe {
+        width: 750px;
+        height: 400px;
+    }
+}
+
+@media (max-width:970px) {
+    .video-presentation-title{
+        margin: 35px 0 40px 0;
+    }
+
+    .video-presentation-player{
+        margin-bottom: 45px;
+
+    }
+
+    .video-presentation-player iframe {
+        width: 560px;
+        height: 315px;
+    }
+}
+
+@media (max-width: 600px) {
+    .video-presentation-title{
+        max-width: 270px;
+        font-size: 20px;
+        line-height: 140%;
+    }
+
+    .video-presentation-player iframe {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 400px) {
+    .video-presentation-player iframe {
+        width: 280px;
+        height: 156px;
+    }
+}
+
+/*Video Presentation Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
