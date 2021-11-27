@@ -376,6 +376,7 @@ input, button, textarea, select {
 
 .solutions-item-image {
     flex: 0 1 50%;
+    padding: 0 10px 0 10px;
 }
 
 .solutions-item-content {
@@ -410,6 +411,39 @@ input, button, textarea, select {
     line-height: 160%;
     letter-spacing: 0.03em;
     color: #000000;
+}
+
+.frame-group-3 {
+    position: relative;
+}
+
+.frame-group-3 img {
+    display: inline-block;
+}
+
+.frame-group {
+    position: relative;
+}
+
+.frame-group img {
+    display: inline-block;
+}
+
+.frame6 {
+    position: absolute;
+    left: -35px;
+    top: -261px;
+}
+
+.frame7 {
+    position: absolute;
+    left: -87px;
+    top: -145px;
+}
+
+.frame8{
+    position: absolute;
+
 }
 
 /* Solutions Section End */
