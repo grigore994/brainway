@@ -76,6 +76,7 @@
     /* SHADOW GRADIENT */
     box-shadow: 0 5px 15px rgba(0, 70, 187, 0.4);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .header-contactUs-button:hover {
