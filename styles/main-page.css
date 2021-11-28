@@ -154,7 +154,7 @@ input, button, textarea, select {
     }
 
     .base-container {
-        padding: 0 50px 0 50px;
+        padding: 0 25px 0 25px;
     }
 
     .presentation-body {
@@ -648,28 +648,185 @@ input, button, textarea, select {
 
 }
 
-.goal-item-button button:hover{
+.goal-item-button button:hover {
     box-shadow: 0 0 15px #0047FF;
 }
 
-.frame12{
+.frame12 {
     position: absolute;
     top: -93px;
     left: -91px;
 }
 
-.frame13{
+.frame13 {
     position: absolute;
     top: -134px;
-    right:-189px;
+    right: -189px;
 
 }
-.frame14{
-    position:absolute;
+
+.frame14 {
+    position: absolute;
     right: -148px;
     top: -42px;
 }
 
+.frame15 {
+    position: absolute;
+    top: 15px;
+    left: -319px;
+}
+
+.frame16 {
+    position: absolute;
+    left: -195px;
+    top: 77px;
+}
+
+.frame17 {
+    position: absolute;
+    top: 145px;
+    left: -81px;
+}
+
+.frame18 {
+    position: absolute;
+    top: 46px;
+    right: -200px;
+}
+
+.frame19 {
+    position: absolute;
+    top: -60px;
+    right: -217px;
+}
+
+@media (max-width: 1100px) {
+    .goals-items-list {
+        margin: 0 35px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .goals-items-list {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 970px) {
+    .section-goals {
+        padding-top: 71px;
+        padding-bottom: 138px;
+    }
+
+    .goals-body {
+        width: 100%;
+    }
+
+    .goals-items-list {
+        margin: 0 25px;
+    }
+
+    .goals-header {
+        margin-bottom: 40px;
+    }
+
+    .goals-item {
+        display: flex;
+        flex-direction: column;
+        margin: 35px 0;
+    }
+
+    .goal-item-icon-container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .goal-item-icon {
+        margin-right: 25px;
+    }
+
+    .goal-item-description {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .goals-header {
+        font-size: 30px;
+        line-height: 160%;
+    }
+
+    .goals-items-list {
+        margin: 0 0;
+    }
+
+    .first-horizontal-line {
+        display: none;
+    }
+
+    .goal-item-icon-title {
+        font-size: 20px;
+    }
+
+    .goal-item-description {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .last-horizontal-line {
+        display: none;
+    }
+
+    .frame12 {
+        position: absolute;
+        top: -175px;
+        left: 0;
+    }
+
+    .frame13 {
+        position: absolute;
+        top: -600px;
+        right: -10px;
+
+    }
+
+    .frame14 {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        right: 55px;
+        top: -555px;
+    }
+
+    .frame15 {
+        display: none;
+    }
+
+    .frame16 {
+        display: none;
+    }
+
+    .frame17 {
+        position: absolute;
+        top: 166px;
+        left: -0px;
+    }
+
+    .frame18 {
+        position: absolute;
+        top: 60px;
+        right: -45px;
+    }
+
+    .frame19 {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
 /* Section Goals End */
 
 
