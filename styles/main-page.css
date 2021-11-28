@@ -341,13 +341,13 @@ input, button, textarea, select {
 
 }
 
-.frame-group-2 {
-    position: relative;
-}
+/*.frame-group-2 {*/
+/*    position: relative;*/
+/*}*/
 
-.frame-group-2 img {
-    display: inline-block;
-}
+/*.frame-group-2 img {*/
+/*    display: inline-block;*/
+/*}*/
 
 .frame3 {
     position: absolute;
@@ -413,13 +413,13 @@ input, button, textarea, select {
     color: #000000;
 }
 
-.frame-group-3 {
-    position: relative;
-}
+/*.frame-group-3 {*/
+/*    position: relative;*/
+/*}*/
 
-.frame-group-3 img {
-    display: inline-block;
-}
+/*.frame-group-3 img {*/
+/*    display: inline-block;*/
+/*}*/
 
 .frame-group {
     position: relative;
@@ -441,11 +441,108 @@ input, button, textarea, select {
     top: -145px;
 }
 
-.frame8{
+.frame8 {
     position: absolute;
-
+    left: -85px;
+    top: -114px;
 }
 
+.frame9 {
+    position: absolute;
+    right: -83px;
+    top: -31px;
+}
+
+.frame10 {
+    position: absolute;
+    top: -183px;
+    left: -58px;
+}
+
+.frame11 {
+    position: absolute;
+    top: -107px;
+    left: 35px;
+}
+
+@media (max-width: 970px) {
+    .solutions-header {
+        padding-top: 0;
+        padding-bottom:70px;
+        margin-top: -30px;
+    }
+
+    .solutions-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .second-solutions-item{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .last-solutions-item{
+        margin-bottom: 60px;
+    }
+
+    .solutions-item-image{
+        margin-bottom: 30px;
+    }
+
+    .solutions-item-title{
+        font-size: 18px;
+        line-height: 160%;
+        margin-bottom: 15px;
+    }
+
+    .solutions-item-description{
+        margin-left: 0;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .frame-group-2 img{
+        display: none;
+    }
+
+    .frame-group-3 img{
+        display: none;
+    }
+
+    .frame-group-4 img{
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .solutions-header-title{
+        margin-bottom: 20px;
+        font-size: 25px;
+        line-height: 160%;
+    }
+
+    .solutions-header-subtitle {
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .frame1{
+        margin-top: -15px;
+        margin-left: 30px;
+        width:60px;
+        height:27px;
+    }
+
+    .frame2 {
+        height: 89px;
+        margin-top: -15px;
+        margin-right: -60px;
+    }
+}
 /* Solutions Section End */
 
 
