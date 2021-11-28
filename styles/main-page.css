@@ -652,6 +652,24 @@ input, button, textarea, select {
     box-shadow: 0 0 15px #0047FF;
 }
 
+.frame12{
+    position: absolute;
+    top: -93px;
+    left: -91px;
+}
+
+.frame13{
+    position: absolute;
+    top: -134px;
+    right:-189px;
+
+}
+.frame14{
+    position:absolute;
+    right: -148px;
+    top: -42px;
+}
+
 /* Section Goals End */
 
 
