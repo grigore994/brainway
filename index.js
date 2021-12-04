@@ -12,3 +12,15 @@ function handleBurgerMenuFn() {
         closeIcon.style.display = "none";
     }
 }
+
+let elem = document.querySelector('.carousel');
+let flickity = new Flickity( elem, {
+    // options
+    cellalign: 'center',
+    pageDots: true,
+    groupCells: '20%',
+    selectedAttraction: 0.03,
+    friction: 0.15,
+    initialIndex: 2,
+    // wrapAround:true
+});
