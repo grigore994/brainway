@@ -832,13 +832,13 @@ input, button, textarea, select {
 
 /* Section Costumers */
 .section-costumers {
-background-color: #F8F8F8;
+    background-color: #F8F8F8;
     padding-bottom: 113px;
 }
 
 .costumers-header {
     margin-top: 109px;
-    margin-bottom:70px;
+    margin-bottom: 70px;
     display: flex;
     justify-content: center;
     font-family: Rubik, serif;
@@ -850,7 +850,7 @@ background-color: #F8F8F8;
 }
 
 @media (max-width: 620px) {
-    .costumers-header{
+    .costumers-header {
         font-size: 25px;
         line-height: 160%;
         margin-top: 63px;
@@ -1104,7 +1104,7 @@ background-color: #F8F8F8;
         max-width: 200px;
     }
 
-    .carousel-cell.costumer-card.is-selected{
+    .carousel-cell.costumer-card.is-selected {
         margin-top: 7px;
         margin-left: 12px;
         padding: 20px 20px 41px 20px;
@@ -1129,7 +1129,7 @@ background-color: #F8F8F8;
         padding-bottom: 20px;
     }
 
-    .is-selected .costumer-logo{
+    .is-selected .costumer-logo {
         display: none;
     }
 
@@ -1195,7 +1195,7 @@ background-color: #F8F8F8;
 
 .costumer-logo {
     position: absolute;
-    right: 0px;
+    right: 0;
 }
 
 .costumer-logo img {
@@ -1243,17 +1243,23 @@ background-color: #F8F8F8;
 .costumer-card-content-more a {
     text-decoration: underline;
 }
+
 /* Costumer Card Styles End*/
 
 /* Section Costumers End */
 
 /* Section Customers Logos */
-.section-customers-logos{
+.section-customers-logos {
     padding: 87px 0;
 }
-.customers-logos-body{}
-.logos-carousel{}
-.logos-carousel .carousel-cell{
+
+.customers-logos-body {
+}
+
+.logos-carousel {
+}
+
+.logos-carousel .carousel-cell {
     margin-top: 0;
     margin-bottom: 0;
     margin-right: 120px;
@@ -1271,7 +1277,7 @@ background-color: #F8F8F8;
 }
 
 @media ( max-width: 900px ) {
-    .section-customers-logos{
+    .section-customers-logos {
         padding: 40px 0;
     }
 
@@ -1288,3 +1294,342 @@ background-color: #F8F8F8;
 }
 
 /* Section Customers Logos End */
+
+/* Section Contact Us */
+.section-contact-us {
+    padding: 119px 0;
+    background: #F8F8F8;
+}
+
+.contact-us-container {
+}
+
+.contact-us-body {
+    display: flex;
+}
+
+.contact-us-form-container {
+    flex: 0 1 50%;
+}
+
+.contact-us-form-header {
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+
+    /*text-align: center;*/
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+
+.contact-us-form {
+    max-width: 450px;
+}
+
+.contact-us-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-form-input {
+    padding: 20px 0 20px 30px;
+    margin-bottom: 20px;
+    background: #FFFFFF;
+    /* SHADOW */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 107.9%;
+    /* or 17px */
+
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-us-form-text-area {
+    max-height: 138px;
+    padding: 25px 0 0 30px;
+    background: #FFFFFF;
+    /* SHADOW */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 107.9%;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.privacy-police-agreement-message {
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 107.9%;
+    letter-spacing: 0.03em;
+    color: #261911;
+
+    margin-bottom: 21px;
+}
+
+.contact-us-form-button {
+    padding: 12px 0;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #000000;
+    /* SHADOW */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-us-form-button:hover {
+    background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
+}
+
+
+.contact-us-addresses-container {
+    flex: 0 1 50%;
+}
+
+.contact-us-addresses-header {
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-us-addresses {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.contact-us-address-card {
+    padding: 30px 30px;
+    background: #FFFFFF;
+    /* SHADOW */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.active-address-card {
+    background: linear-gradient(90deg, rgba(106, 17, 203, 0.2) 0%, rgba(37, 117, 252, 0.2) 100%);
+}
+
+.card-country-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.location-img {
+}
+
+.contact-us-address-card-country {
+    font-family: Spartan, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+}
+
+.contact-us-address-card-city {
+    font-family: Spartan, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+}
+
+.contact-us-address-card-street {
+    font-family: Spartan, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.card-phone-block {
+    display: flex;
+    align-items: center;
+}
+
+.phone-img {
+    margin-right: 3px;
+}
+
+.contact-us-address-card-phone {
+    font-family: Spartan, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000000;
+}
+
+.contact-us-map-container {
+    max-width: 570px;
+    height: 270px;
+}
+
+.contact-us-map-container iframe {
+    width: 100%;
+    height: 100%;
+    /* SHADOW */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    /*filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.08));*/
+    border-radius: 10px;
+}
+
+#israel-map {
+    /*display: none;*/
+}
+
+#russia-map {
+    /*display: none;*/
+}
+
+.visible {
+    display: inherit;
+}
+
+.invisible {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .contact-us-form-container {
+        flex: 0 1 45%;
+    }
+
+    .contact-us-addresses-container {
+        flex: 0 1 55%;
+
+    }
+}
+
+@media (max-width: 1000px) {
+    .section-contact-us {
+        padding: 50px 0 96px 0;
+        background: #F8F8F8;
+    }
+
+    .contact-us-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 850px;
+    }
+
+    .contact-us-form-container {
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 103px;
+    }
+
+    .contact-us-form-header {
+        margin: 0 0 50px 0;
+        text-align: center;
+    }
+
+    .contact-us-form {
+        max-width: 800px;
+    }
+
+    .contact-us-form form {
+        width: 100%;
+    }
+
+    .contact-us-addresses-container {
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-us-addresses {
+        justify-content: center;
+    }
+
+    .contact-us-address-card {
+        margin: 0 15px 0 15px;
+    }
+
+    .contact-us-map-container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .contact-us-addresses{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-us-address-card:not(:last-child){
+        margin-bottom: 20px;
+    }
+
+    .contact-us-map-container{
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-us-form-container {
+       max-width: 400px;
+    }
+
+    .contact-us-map-container{
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contact-us-form-container {
+        max-width: 300px;
+    }
+
+    .contact-us-map-container{
+        max-width: 350px;
+    }
+}
+
+/* Section Contact Us End */

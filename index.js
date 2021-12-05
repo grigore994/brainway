@@ -39,3 +39,21 @@ let customersLogoFlickity = new Flickity( customersLogoCarousel, {
     // autoplay:true
 });
 
+let israelMap = document.getElementById("israel-map");
+let russiaMap = document.getElementById("russia-map");
+let israelCard = document.getElementById("israel-card");
+let russiaCard = document.getElementById("russia-card");
+
+function setIsraelCardActive() {
+    israelCard.classList.add("active-address-card");
+    russiaCard.classList.remove("active-address-card");
+    israelMap.classList.replace("invisible", "visible");
+    russiaMap.classList.replace("visible", "invisible");
+}
+
+function setRussiaCardActive() {
+    russiaCard.classList.add("active-address-card");
+    israelCard.classList.remove("active-address-card");
+    israelMap.classList.replace("visible", "invisible");
+    russiaMap.classList.replace("invisible", "visible");
+}

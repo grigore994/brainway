@@ -609,9 +609,87 @@
             </div>
          </section>
 
+         <section class="section-contact-us">
+            <div class="contact-us-container base-container">
+               <div class="contact-us-body">
+
+                  <div class="contact-us-form-container">
+                     <div class="contact-us-form-header gradient-text">Contact us</div>
+                     <div class="contact-us-form">
+                        <form action="">
+                           <input type="text" class="contact-us-form-input" placeholder="Name">
+                           <input type="text" class="contact-us-form-input" placeholder="Company">
+                           <input type="email" class="contact-us-form-input" placeholder="Email">
+                           <input type="text" class="contact-us-form-input" placeholder="Phone">
+                           <textarea class="contact-us-form-text-area" name="your-mind"  cols="30" rows="10" placeholder="Whats on your mind?"></textarea>
+                           <p class="privacy-police-agreement-message">By clicking on the button, You agree with Privacy Policy</p>
+                           <button class="contact-us-form-button" type="submit">Send</button>
+                        </form>
+                     </div>
+                  </div>
+
+                  <div class="contact-us-addresses-container">
+                     <div class="contact-us-addresses-header">Offices</div>
+
+                     <div class="contact-us-addresses">
+
+                        <div class="contact-us-address-card active-address-card" onclick="setIsraelCardActive()" id="israel-card">
+                           <div class="card-country-block">
+                              <div class="location-img">
+                                 <img src="../images/main-page/location-img.svg" alt="location-img.svg">
+                              </div>
+                              <div class="contact-us-address-card-country">Israel</div>
+                           </div>
+                           <div class="contact-us-address-card-city">Petah Tikva,</div>
+                           <div class="contact-us-address-card-street">37 Amal St.</div>
+                           <div class="card-phone-block">
+                              <div class="phone-img">
+                                 <img src="../images/main-page/phone-img.svg" alt="phone-img.svg">
+                              </div>
+                              <div class="contact-us-address-card-phone">+(972)545-331-851</div>
+                           </div>
+                        </div>
+
+                        <div class="contact-us-address-card" onclick="setRussiaCardActive()" id="russia-card">
+                           <div class="card-country-block">
+                              <div class="location-img">
+                                 <img src="../images/main-page/location-img.svg" alt="location-img.svg">
+                              </div>
+                              <div class="contact-us-address-card-country">Russia</div>
+                           </div>
+                           <div class="contact-us-address-card-city">St. Petersburg,</div>
+                           <div class="contact-us-address-card-street">46 Garden St.</div>
+                           <div class="card-phone-block">
+                              <div class="phone-img">
+                                 <img src="../images/main-page/phone-img.svg" alt="phone-img.svg">
+                              </div>
+                              <div class="contact-us-address-card-phone">+(972)545-331-851</div>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="contact-us-map-container" id="map">
+                        <iframe id="israel-map"
+                                class="visible"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3379.9851958159566!2d34.8467421151332!3d32.09668578118277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d49f0fcae7941%3A0x8a71713b50b96589!2sAmal%2037%2C%20Petah%20Tikva%2C%20Israel!5e0!3m2!1sro!2s!4v1638714693924!5m2!1sro!2s"
+                                allowfullscreen="" loading="lazy">
+                        </iframe>
+                        <iframe id="russia-map"
+                                class="invisible"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2011.891191140974!2d30.39174951606912!3d59.71800088179649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696216c17e3e995%3A0xfdfc35a7be8f39c0!2sGarden%20St%2C%2046%2C%20Sankt-Peterburg%2C%20Rusia%2C%20196601!5e0!3m2!1sro!2s!4v1638714999670!5m2!1sro!2s"
+                                allowfullscreen="" loading="lazy">
+
+                        </iframe>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
       </div>
 
-
+      <!--  Load google map API    -->
+<!--      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly" async></script>-->
       <!--   Load slider library   -->
       <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
       <!-- Load jQuery  -->
