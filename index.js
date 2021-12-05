@@ -13,8 +13,8 @@ function handleBurgerMenuFn() {
     }
 }
 
-let elem = document.querySelector('.carousel');
-let flickity = new Flickity( elem, {
+let customersCardCarousel = document.querySelector('.carousel');
+let customersCardFlickity = new Flickity( customersCardCarousel, {
     // options
     cellalign: 'center',
     pageDots: true,
@@ -24,3 +24,18 @@ let flickity = new Flickity( elem, {
     initialIndex: 2,
     // wrapAround:true
 });
+
+let customersLogoCarousel = document.querySelector(".logos-carousel");
+let customersLogoFlickity = new Flickity( customersLogoCarousel, {
+    // options
+    cellalign: 'left',
+    pageDots: false,
+    freeScroll: true,
+    contain: true,
+    prevNextButtons: false,
+    initialIndex: 3,
+    autoPlay: true,
+    // wrapAround:true,
+    // autoplay:true
+});
+

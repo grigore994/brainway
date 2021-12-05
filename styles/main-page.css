@@ -833,6 +833,7 @@ input, button, textarea, select {
 /* Section Costumers */
 .section-costumers {
 background-color: #F8F8F8;
+    padding-bottom: 113px;
 }
 
 .costumers-header {
@@ -1245,3 +1246,45 @@ background-color: #F8F8F8;
 /* Costumer Card Styles End*/
 
 /* Section Costumers End */
+
+/* Section Customers Logos */
+.section-customers-logos{
+    padding: 87px 0;
+}
+.customers-logos-body{}
+.logos-carousel{}
+.logos-carousel .carousel-cell{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 120px;
+    width: 127px;
+    height: 127px;
+}
+
+.logos-carousel .carousel-cell.is-selected {
+    transform: none;
+}
+
+.logos-carousel.customer-logo-img {
+    width: 127px;
+    height: 127px;
+}
+
+@media ( max-width: 900px ) {
+    .section-customers-logos{
+        padding: 40px 0;
+    }
+
+    .logos-carousel .carousel-cell {
+        /*width: 50%;*/
+        width: 72px;
+        height: 72px;
+        /*margin-top: 40px;*/
+        /*margin-bottom: 40px;*/
+        margin-right: 30px;
+    }
+
+
+}
+
+/* Section Customers Logos End */
