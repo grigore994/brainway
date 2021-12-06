@@ -1433,10 +1433,12 @@ input, button, textarea, select {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
     border-radius: 10px;
     cursor: pointer;
+    z-index: 2;
 }
 
 .active-address-card {
     background: linear-gradient(90deg, rgba(106, 17, 203, 0.2) 0%, rgba(37, 117, 252, 0.2) 100%);
+    z-index: 2;
 }
 
 .card-country-block {
@@ -1540,6 +1542,49 @@ input, button, textarea, select {
     }
 }
 
+.frame20 {
+    position: absolute;
+    left: -130px;
+    top: 55px;
+}
+
+.frame21 {
+    position: absolute;
+    left: -62px;
+    top: -60px;
+}
+
+.frame22 {
+    position: absolute;
+    right: -110px;
+    top: 81px;
+    z-index: 1;
+}
+
+.frame23 {
+    position: absolute;
+    right: -95px;
+    top: 20px;
+}
+
+.frame24 {
+    position: absolute;
+    top: -87px;
+    left: -95px;
+}
+
+.frame25 {
+    position: absolute;
+    top: 20px;
+    left: 43%;
+}
+
+.frame26 {
+    position: absolute;
+    right: -105px;
+    top: -85px;
+}
+
 @media (max-width: 1000px) {
     .section-contact-us {
         padding: 50px 0 96px 0;
@@ -1592,32 +1637,37 @@ input, button, textarea, select {
         margin: 0 15px 0 15px;
     }
 
-    .contact-us-map-container{
+    .contact-us-map-container {
         width: 100%;
+    }
+
+    .frame22 img {
+        z-index: -1;
+        display: none;
     }
 }
 
 @media (max-width: 650px) {
-    .contact-us-addresses{
+    .contact-us-addresses {
         display: flex;
         flex-direction: column;
     }
 
-    .contact-us-address-card:not(:last-child){
+    .contact-us-address-card:not(:last-child) {
         margin-bottom: 20px;
     }
 
-    .contact-us-map-container{
+    .contact-us-map-container {
         max-width: 500px;
     }
 }
 
 @media (max-width: 500px) {
     .contact-us-form-container {
-       max-width: 400px;
+        max-width: 400px;
     }
 
-    .contact-us-map-container{
+    .contact-us-map-container {
         max-width: 400px;
     }
 }
@@ -1627,7 +1677,7 @@ input, button, textarea, select {
         max-width: 300px;
     }
 
-    .contact-us-map-container{
+    .contact-us-map-container {
         max-width: 350px;
     }
 }
