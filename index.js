@@ -14,7 +14,7 @@ function handleBurgerMenuFn() {
 }
 
 let customersCardCarousel = document.querySelector('.carousel');
-let customersCardFlickity = new Flickity( customersCardCarousel, {
+let customersCardFlickity = new Flickity(customersCardCarousel, {
     // options
     cellalign: 'center',
     pageDots: true,
@@ -26,7 +26,7 @@ let customersCardFlickity = new Flickity( customersCardCarousel, {
 });
 
 let customersLogoCarousel = document.querySelector(".logos-carousel");
-let customersLogoFlickity = new Flickity( customersLogoCarousel, {
+let customersLogoFlickity = new Flickity(customersLogoCarousel, {
     // options
     cellalign: 'left',
     pageDots: false,
