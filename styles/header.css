@@ -226,5 +226,11 @@
     }
 }
 
+@media (max-width:1200px) {
+    header{
+        padding: 20px 0 0 20px;
+    }
+}
+
 
 /* Header End */

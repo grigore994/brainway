@@ -52,6 +52,12 @@ input, button, textarea, select {
     flex-direction: column;
 }
 
+.gradient-text {
+    background: -webkit-linear-gradient(#6A11CB, #2575FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* zeroing end */
 
 /* Containers */
@@ -59,6 +65,289 @@ input, button, textarea, select {
     max-width: 1170px;
     margin: 0 auto; /* will center this container */
     /*padding: 0 15px;*/
+    /*position: relative;*/
+}
+/* Containers End */
+
+/* Main Block */
+.process-main-block{
+    padding: 70px 0 65px 0;
+}
+.main-block-header{
+    font-family: Rubik,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+.main-block-body{
+    display: flex;
+}
+.main-block-content{
+    flex: 41%;
+    padding-right: 30px;
+}
+.content-title{
+    font-family: Rubik , serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-align: left;
+
+    margin-top: 50px;
+    margin-bottom:20px;
+}
+.content-text{
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-align: left;
+
+}
+.main-block-image{
+    flex: 59%;
+
+}
+.main-block-image img{}
+
+@media (max-width: 1230px) {
+    .process-main-block{
+        padding:40px 0 120px 0;
+    }
+    .main-block-header{
+        /*font-size: 25px;*/
+        /*line-height: 160%;*/
+        /*margin-bottom: 44px;*/
+    }
+
+    .main-block-body{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-block-content{
+        padding: 0 50px;
+    }
+
+    .content-title{
+        /*font-size: 20px;*/
+        /*line-height: 160%;*/
+        margin: 50px 0 10px 0;
+    }
+    .content-text{
+        /*font-size: 16px;*/
+        /*line-height: 140%;*/
+    }
+
+    .main-block-image{
+        display: flex;
+        padding: 0 9px 0 9px;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
-/* Containers End */
+@media (max-width: 750px) {
+    .process-main-block{
+        padding:40px 0 120px 0;
+    }
+    .main-block-header{
+        font-size: 25px;
+        line-height: 160%;
+        margin-bottom: 44px;
+    }
+
+    .main-block-body{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main-block-content{
+        padding: 0 20px;
+    }
+
+    .content-title{
+        font-size: 20px;
+        line-height: 160%;
+        margin: 20px 0 10px 0;
+    }
+    .content-text{
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    .main-block-image{
+        padding: 0 9px 0 9px;
+    }
+}
+/* Main Block End */
+
+/*Section Processes */
+.section-processes{
+    padding:183px 0 226px 0 ;
+    background: #F8F8F8;
+}
+.section-processes-header{
+    font-family: Rubik,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+.section-processes-body{
+    margin-top: 91px;
+}
+
+.process-type1{
+    display: flex;
+    align-items: center;
+    /*margin-bottom: 120px;*/
+}
+
+.process-type1:not(:last-child) {
+    margin-bottom: 120px;
+}
+
+.process-type1-img{
+    flex: 34%;
+}
+.process-type1-img img{}
+.process-type1-description-container{
+    flex: 66%;
+    padding: 0 64px 0 48px;
+    position: relative;
+}
+.process-type1-title-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+
+}
+
+.process-type1-title-container .block-title{
+    align-items:center;
+    display: flex;
+    background: linear-gradient(90deg, rgba(37, 117, 252, 0.3) 42.21%, rgba(106, 17, 203, 0.3) 93.3%);
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    /* SHADOW */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+
+    padding: 12px 33px 45px 33px;
+}
+.process-type1-title{
+    margin-right: 10px;
+}
+.process-type1-icon{}
+.process-type1-icon img{}
+.process-type1-description{
+    padding: 22px 32px;
+    position: relative;
+    top: -40px;
+    z-index: 2;
+    background: #FFFFFF;
+    /* SHADOW */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    color: #000000;
+
+}
+
+.process-type2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    /*position: relative;*/
+}
+.process-type2-description-container{
+    max-width: 685px;
+    position: relative;
+    /*left:401px;*/
+}
+.process-type2-title-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+
+.process-type2-title-container .block-title{
+    align-items:center;
+    display: flex;
+    background: #FFFFFF;
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    /* SHADOW */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    padding: 12px 33px 45px 33px;
+}
+.process-type2-title{
+    margin-right: 10px;
+}
+.process-type2-icon{}
+.process-type2-icon img{}
+.process-type2-description{
+    padding: 22px 32px;
+    position: relative;
+    top: -40px;
+    z-index: 2;
+    background: #FFFFFF;
+    /* SHADOW */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.relative-container{
+    position: relative;
+}
+
+.process-type2-img{
+    position: absolute;
+    /*left: 50%;*/
+    bottom: 20%;
+    right: -17%;
+}
+/*Section Processes End */

@@ -46,7 +46,7 @@ input, button, textarea, select {
 }
 
 
-.gradient-text {
+.footer-gradient-text {
     background: -webkit-linear-gradient(#4BA8FE 100%, #2575FC 100%, #0354DC 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
