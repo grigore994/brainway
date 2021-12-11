@@ -350,4 +350,17 @@ input, button, textarea, select {
     bottom: 20%;
     right: -17%;
 }
+
+.process-type2-img.light-bulb{
+    position: absolute;
+    bottom: 73%;
+    right: -1%;
+}
+
+.process-type2-img.maintenance-checklist-img{
+    position: absolute;
+    bottom: 64%;
+    right: -7%;
+}
+
 /*Section Processes End */
