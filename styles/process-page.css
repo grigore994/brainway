@@ -67,14 +67,16 @@ input, button, textarea, select {
     /*padding: 0 15px;*/
     /*position: relative;*/
 }
+
 /* Containers End */
 
 /* Main Block */
-.process-main-block{
+.process-main-block {
     padding: 70px 0 65px 0;
 }
-.main-block-header{
-    font-family: Rubik,serif;
+
+.main-block-header {
+    font-family: Rubik, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -84,15 +86,18 @@ input, button, textarea, select {
 
     margin-bottom: 60px;
 }
-.main-block-body{
+
+.main-block-body {
     display: flex;
 }
-.main-block-content{
+
+.main-block-content {
     flex: 41%;
     padding-right: 30px;
 }
-.content-title{
-    font-family: Rubik , serif;
+
+.content-title {
+    font-family: Rubik, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 35px;
@@ -102,9 +107,10 @@ input, button, textarea, select {
     text-align: left;
 
     margin-top: 50px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
-.content-text{
+
+.content-text {
     font-family: Rubik, serif;
     font-style: normal;
     font-weight: normal;
@@ -115,42 +121,47 @@ input, button, textarea, select {
     text-align: left;
 
 }
-.main-block-image{
+
+.main-block-image {
     flex: 59%;
 
 }
-.main-block-image img{}
+
+.main-block-image img {
+}
 
 @media (max-width: 1230px) {
-    .process-main-block{
-        padding:40px 0 120px 0;
+    .process-main-block {
+        padding: 40px 0 120px 0;
     }
-    .main-block-header{
+
+    .main-block-header {
         /*font-size: 25px;*/
         /*line-height: 160%;*/
         /*margin-bottom: 44px;*/
     }
 
-    .main-block-body{
+    .main-block-body {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .main-block-content{
+    .main-block-content {
         padding: 0 50px;
     }
 
-    .content-title{
+    .content-title {
         /*font-size: 20px;*/
         /*line-height: 160%;*/
         margin: 50px 0 10px 0;
     }
-    .content-text{
+
+    .content-text {
         /*font-size: 16px;*/
         /*line-height: 140%;*/
     }
 
-    .main-block-image{
+    .main-block-image {
         display: flex;
         padding: 0 9px 0 9px;
         align-items: center;
@@ -159,47 +170,51 @@ input, button, textarea, select {
 }
 
 @media (max-width: 750px) {
-    .process-main-block{
-        padding:40px 0 120px 0;
+    .process-main-block {
+        padding: 40px 0 120px 0;
     }
-    .main-block-header{
+
+    .main-block-header {
         font-size: 25px;
         line-height: 160%;
         margin-bottom: 44px;
     }
 
-    .main-block-body{
+    .main-block-body {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .main-block-content{
+    .main-block-content {
         padding: 0 20px;
     }
 
-    .content-title{
+    .content-title {
         font-size: 20px;
         line-height: 160%;
         margin: 20px 0 10px 0;
     }
-    .content-text{
+
+    .content-text {
         font-size: 16px;
         line-height: 140%;
     }
 
-    .main-block-image{
+    .main-block-image {
         padding: 0 9px 0 9px;
     }
 }
+
 /* Main Block End */
 
 /*Section Processes */
-.section-processes{
-    padding:183px 0 226px 0 ;
+.section-processes {
+    padding: 183px 0 226px 0;
     background: #F8F8F8;
 }
-.section-processes-header{
-    font-family: Rubik,serif;
+
+.section-processes-header {
+    font-family: Rubik, serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -209,30 +224,30 @@ input, button, textarea, select {
 
 }
 
-.section-processes-body{
+.section-processes-body {
     margin-top: 91px;
 }
 
-.process-type1{
+.process-type1 {
     display: flex;
     align-items: center;
-    /*margin-bottom: 120px;*/
-}
-
-.process-type1:not(:last-child) {
     margin-bottom: 120px;
 }
 
-.process-type1-img{
+.process-type1-img {
     flex: 34%;
 }
-.process-type1-img img{}
-.process-type1-description-container{
+
+.process-type1-img img {
+}
+
+.process-type1-description-container {
     flex: 66%;
     padding: 0 64px 0 48px;
     position: relative;
 }
-.process-type1-title-container{
+
+.process-type1-title-container {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
@@ -240,8 +255,8 @@ input, button, textarea, select {
 
 }
 
-.process-type1-title-container .block-title{
-    align-items:center;
+.process-type1-title-container .block-title {
+    align-items: center;
     display: flex;
     background: linear-gradient(90deg, rgba(37, 117, 252, 0.3) 42.21%, rgba(106, 17, 203, 0.3) 93.3%);
     font-family: Rubik, serif;
@@ -257,12 +272,18 @@ input, button, textarea, select {
 
     padding: 12px 33px 45px 33px;
 }
-.process-type1-title{
+
+.process-type1-title {
     margin-right: 10px;
 }
-.process-type1-icon{}
-.process-type1-icon img{}
-.process-type1-description{
+
+.process-type1-icon {
+}
+
+.process-type1-icon img {
+}
+
+.process-type1-description {
     padding: 22px 32px;
     position: relative;
     top: -40px;
@@ -282,27 +303,29 @@ input, button, textarea, select {
 
 }
 
-.process-type2{
+.process-type2 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 120px;
     /*position: relative;*/
 }
-.process-type2-description-container{
+
+.process-type2-description-container {
     max-width: 685px;
     position: relative;
     /*left:401px;*/
 }
-.process-type2-title-container{
+
+.process-type2-title-container {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
 }
 
-.process-type2-title-container .block-title{
-    align-items:center;
+.process-type2-title-container .block-title {
+    align-items: center;
     display: flex;
     background: #FFFFFF;
     font-family: Rubik, serif;
@@ -316,12 +339,18 @@ input, button, textarea, select {
     border-radius: 20px;
     padding: 12px 33px 45px 33px;
 }
-.process-type2-title{
+
+.process-type2-title {
     margin-right: 10px;
 }
-.process-type2-icon{}
-.process-type2-icon img{}
-.process-type2-description{
+
+.process-type2-icon {
+}
+
+.process-type2-icon img {
+}
+
+.process-type2-description {
     padding: 22px 32px;
     position: relative;
     top: -40px;
@@ -340,27 +369,161 @@ input, button, textarea, select {
     color: #000000;
 }
 
-.relative-container{
+.relative-container {
     position: relative;
 }
 
-.process-type2-img{
+.process-type2-img {
     position: absolute;
     /*left: 50%;*/
     bottom: 20%;
     right: -17%;
 }
 
-.process-type2-img.light-bulb{
+.process-type2-img.light-bulb {
     position: absolute;
     bottom: 73%;
     right: -1%;
 }
 
-.process-type2-img.maintenance-checklist-img{
+.process-type2-img.maintenance-checklist-img {
     position: absolute;
     bottom: 64%;
     right: -7%;
+}
+
+.frame-group {
+    position: relative;
+}
+
+.frame-group img {
+    display: inline-block;
+}
+
+.frame-1 {
+    position: absolute;
+    top: -183px;
+    left: -133px;
+}
+
+.frame-2 {
+    position: absolute;
+    top: -94px;
+    left: 46px;
+}
+
+.frame-3 {
+    position: absolute;
+    top: -59px;
+    left: 94px;
+}
+
+.frame-4 {
+    position: absolute;
+    top: -199px;
+    left: 224px;
+}
+
+.frame-5 {
+    position: absolute;
+    top: -210px;
+    right: -20px;
+}
+
+.frame-6 {
+    position: absolute;
+    top: -39px;
+    right: -100px;
+}
+
+.frame-7 {
+    position: absolute;
+    top: 0;
+    right: 132px;
+}
+
+.frame-8 {
+    position: absolute;
+    top: 110px;
+    left: 25px;
+}
+
+.frame-9 {
+    position: absolute;
+    top: -78px;
+    right: 32px;
+}
+
+.frame-10 {
+    position: absolute;
+    top: -108px;
+    right: -59px;
+}
+
+.frame-11 {
+    position: absolute;
+    top: 130px;
+    left: 21px;
+}
+
+.frame-12 {
+    position: absolute;
+    top: 60px;
+    left: 70px;
+}
+
+.frame-13 {
+    position: absolute;
+    top: 73px;
+    right: 48px;
+}
+
+.frame-14 {
+    position: absolute;
+    top: 80px;
+    left: -112px;
+}
+
+.frame-15 {
+    position: absolute;
+    top: 60px;
+}
+
+.frame-16 {
+    position: absolute;
+    right: -10px;
+    top: -61px;
+}
+
+.frame-17 {
+    position: absolute;
+    left: 522px;
+    top: -60px;
+
+}
+
+.frame-18 {
+    position: absolute;
+    right: 490px;
+    top: 140px;
+}
+
+.frame-19 {
+    position: absolute;
+    top: 72px;
+    right: 235px;
+}
+
+.frame-20 {
+    position: absolute;
+    top: 30px;
+    right: 212px;
+}
+
+.frame-21 {
+    position: absolute;
+    top: 106px;
+    right:27px;
 }
 
 /*Section Processes End */
