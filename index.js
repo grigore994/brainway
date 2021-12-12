@@ -1,3 +1,4 @@
+// Implement functionality for header/menu on all pages
 function handleBurgerMenuFn() {
     let x = document.getElementById("myTopnav");
     let openIcon = document.getElementById("open-hamburger-menu-icon");
@@ -13,6 +14,7 @@ function handleBurgerMenuFn() {
     }
 }
 
+//Implement functionality for carousel on "Home" page
 let customersCardCarousel = document.querySelector('.carousel');
 let customersCardFlickity = new Flickity(customersCardCarousel, {
     // options
@@ -39,6 +41,7 @@ let customersLogoFlickity = new Flickity(customersLogoCarousel, {
     // autoplay:true
 });
 
+//Implement functionality to switch between offices location on "Home" page.
 let israelMap = document.getElementById("israel-map");
 let russiaMap = document.getElementById("russia-map");
 let israelCard = document.getElementById("israel-card");
@@ -56,4 +59,20 @@ function setRussiaCardActive() {
     israelCard.classList.remove("active-address-card");
     israelMap.classList.replace("visible", "invisible");
     russiaMap.classList.replace("invisible", "visible");
+}
+
+// Implement functionality for collapse items on "why us" page "FAQ" section
+let collapsingItem = document.getElementsByClassName("collapsible");
+// let i;
+for (let i = 0; i < collapsingItem.length; i++) {
+    collapsingItem[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        let content = this.nextElementSibling;
+
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });
 }

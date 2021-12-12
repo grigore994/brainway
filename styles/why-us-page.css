@@ -56,9 +56,232 @@ input, button, textarea, select {
 
 /* Containers */
 .base-container {
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto; /* will center this container */
     /*padding: 0 15px;*/
 }
 
 /* Containers End */
+
+.gradient-text {
+    background: -webkit-linear-gradient(360deg, #6A11CB, #2575FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.light-gradient-text {
+    background: -webkit-linear-gradient(360deg, rgba(106, 17, 203, 0.5) 0%, rgba(37, 117, 252, 0.5) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-why-us {
+    padding: 87px 0 210px 0;
+
+}
+
+.why-us-header {
+    padding-bottom: 54px;
+    display: flex;
+    justify-content: center;
+
+    font-family: Spartan, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container .content-row:not(:last-child) {
+    margin-bottom: 130px;
+}
+
+.content-row {
+    display: flex;
+}
+
+.list-item {
+    flex: 50%;
+    margin: 0 15px 0 15px;
+    padding: 35px 30px;
+    max-width: 570px;
+    background: #FFFFFF;
+    /* SHADOW */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+
+.item-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-number {
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    margin-right: 20px;
+}
+
+.item-title {
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 140%;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.item-icon {
+}
+
+.item-icon img {
+}
+
+.item-text {
+    font-family: Rubik, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.item-descriptive-image {
+    flex: 50%;
+    margin: 0 15px 0 15px;
+}
+
+.item-descriptive-image img {
+}
+
+.section-faq {
+    padding: 100px 0 120px 0;
+    background: linear-gradient(90deg, rgba(106, 17, 203, 0.1) 0%, rgba(37, 117, 252, 0.1) 100%);
+}
+
+.section-faq-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-header-title {
+    font-family: Spartan, serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 120%;
+
+    margin-bottom: 25px;
+}
+
+.faq-header-subtitle {
+    font-family: Spartan, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 140%;
+    color: #000000;
+    max-width: 505px;
+
+    margin-bottom: 60px;
+}
+
+.collapsible-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 770px;
+    margin: 0 auto;
+
+}
+
+.collapsible-list-item {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 38px 38px;
+    /* White */
+    background: #FFFFFF;
+    /* SHADOW */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    position: relative;
+    z-index: 5;
+    text-align: left;
+}
+
+.active-arrow {
+    display: none;
+    margin-right: 30px;
+}
+
+.arrow {
+    margin-right: 30px;
+}
+
+.collapsible.active .active-arrow {
+    display: inherit;
+}
+
+.collapsible.active .arrow {
+    display: none;
+}
+
+.collapsible.active span {
+    background: -webkit-linear-gradient(360deg, #6A11CB, #2575FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button-text {
+    font-family: Spartan, serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.content {
+    display: none;
+    /*max-height: 0;*/
+    overflow: hidden;
+    position: relative;
+    padding: 10px 38px 38px 38px;
+    top: -30px;
+    border-radius: 20px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.08);
+    background: #FFFFFF;
+    z-index: 7;
+
+
+    font-family: Spartan, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    /* Black */
+    color: #000000;
+
+
+}
